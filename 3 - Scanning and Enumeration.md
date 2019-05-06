@@ -176,6 +176,7 @@
 | -oX             | XML output                                                   |
 | -T0 through -T2 | Serial scans.  T0 is slowest                                 |
 | -T3 through -T5 | Parallel scans.  T3 is slowest                               |
+| -n              | Skip DNS Resolution
 
 - Nmap runs by default at a T3 level
 - **Fingerprinting** - another word for port sweeping and enumeration
