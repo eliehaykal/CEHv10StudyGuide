@@ -212,8 +212,8 @@
 
 ### <u>Firewall Evasion</u>
 
-- ICMP Type 3 Code 13 will show that  traffic is being blocked by firewall
-- ICMP Type 3 Code 3 tells you the client itself has the port closed
+- ICMP Type 3 Code 13 (Communication Administratively Prohibited) will show that  traffic is being blocked by firewall
+- ICMP Type 3 Code 3 (Port Unreachable) tells you the client itself has the port closed
 - Firewall type can be discerned by banner grabbing
 - **Firewalking** - going through every port on a firewall to determine what is open
 - **Tools**
