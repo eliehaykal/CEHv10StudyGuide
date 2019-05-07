@@ -122,6 +122,9 @@
   - Yersinia
   - DHCPstarv
 - Mitigation is to configure DHCP snooping
+- DHCP Snooping: DHCP Snooping: configured on a switch to allow only one port to send DHCP Offer requests. This builds a DHCP Snooping binding DB. Any other port that attempts to send a DHCPOFFER is blocked.
+- Dynamic ARP poisoning: works in conjunction with DHCP Snooping binding DB to compare mac-address to IP address. If matching allow, else block traffic on the switch
+- For Server and other appliances static ARP can be used to protect from ARP poisoning
 - **Rogue DHCP Server** - setup to offer addresses instead of real server.  Can be combined with starvation to real server.
 
 ### <u>Spoofing</u>
