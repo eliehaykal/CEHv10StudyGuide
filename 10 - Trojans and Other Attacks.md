@@ -8,7 +8,7 @@
 - **Covert Channels** - used to transport data in unintended ways
 - **Wrappers** - programs that allow you to bind an executable to an innocent file
 - **Crypters** - use a combination of encryption and code manipulation to render malware undetectable to security programs
-- **Packers** - use compression to pack the executable which helps evage signature based detection
+- **Packers** - use compression to pack the executable which helps evade signature based detection
 - **Exploit Kits** - help deliver exploits and payloads
   - Infinity
   - Bleeding Life
