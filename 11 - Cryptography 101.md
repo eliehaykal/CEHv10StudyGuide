@@ -36,7 +36,7 @@
   - Problems include key distribution and management
   - Suitable for large amounts of data
   - Harder for groups of people because more keys are needed as group increases
-  - Does nothing for nonrepudiation; only performs confidentiality
+  - Does nothing for nonrepudiation(assurance that someone cannot deny something); only performs confidentiality
 - **Algorithms**
   - **DES** - block cipher; 56 bit key; quickly outdated and now considered not very secure
   - **3DES** - block cipher; 168 bit key; more effective than DES but much slower
