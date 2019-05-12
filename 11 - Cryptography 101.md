@@ -57,7 +57,7 @@
   - **Diffie-Hellman** - developed as a key exchange protocol; used in SSL and IPSec; if digital signatures are waived, vulnerable to MITM attacks
   - **Elliptic Curve Cryptosystem** (ECC) - uses points on elliptical curve along with logarithmic problems; uses less processing power; good for mobile devices
   - **El Gamal** - not based on prime number factoring; uses solving of discrete logarithm problems
-  - **RSA** - achieves strong encryption through the use of two large prime numbers; factoring thse create key sizes up to 4096 bits; modern de facto standard
+  - **RSA** - achieves strong encryption through the use of two large prime numbers; factoring these create key sizes up to 4096 bits; modern de facto standard
 - Only downside is it's slower than symmetric especially on bulk encryption and processing power
 
 ### <u>Hash Algorithms</u>
@@ -68,7 +68,7 @@
   - **SHA-1** - developed by NSA; 160 bit value output
   - **SHA-2** - four separate hash functions; produce outputs of 224, 256, 384 and 512 bits; not widely used
   - **SHA-3** - uses sponge construction
-  - **RIPEMD-#** - works through 80 stages, executing 5 blcosk 16 times each; uses modulo 32 addition
+  - **RIPEMD-#** - works through 80 stages, executing 5 blocks 16 times each; uses modulo 32 addition
 - **Collision** - occurs when two or more files create the same output
   - Can happen and can be used an attack; rare, though
 - **DHUK Attack** (Don't Use Hard-Coded Keys) - allows attackers to access keys in certain VPN implementations; affects devices using ANSI X9.31 with a hard-coded seed key
