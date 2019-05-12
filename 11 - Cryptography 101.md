@@ -20,7 +20,7 @@
   - **Substitution** - bits are replaced by other bits
   - **Transposition** - doesn't replace;  simply changes order
 - **Encryption Algorithms** - methmatical formulas used to encrypt and decrypt data
-- **Steam Cipher** - readable bits are encrypted one at a time in a continuous stream
+- **Stream Cipher** - readable bits are encrypted one at a time in a continuous stream
   - Usually done by an XOR operation
   - Work at a high rate of speed
 - **Block Cipher** - data bits are split up into blocks and fed into the cipher
